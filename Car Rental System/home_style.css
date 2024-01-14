@@ -1,0 +1,61 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-size: cover;
+}
+
+.toppage {
+    background-color: rgb(7, 16, 44);
+    overflow: white;
+}
+
+.toppage {
+    overflow: hidden;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Add a background color to the top navigation */
+.topnav {
+    background-color: #1b32de;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgb(7, 16, 44);
+    color: rgb(255, 255, 255);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: rgb(7, 16, 44);
+    color: white;
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* Top left text */
+.top-centered {
+    position: absolute;
+    top: 100px;
+    left: 650;
+    color: rgb(7, 16, 44);
+}
